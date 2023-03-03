@@ -1,0 +1,46 @@
+body {
+  background: rgb(118, 31, 224);
+  color: white;
+}
+body h1 {
+  font-size: 75px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+body h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding: auto;
+  border: 10cm;
+}
+label {
+  font-size: 20px;
+}
+
+input {
+  font-size: 20px;
+  padding: auto;
+}
+
+.form-control,
+.form-select {
+  width: 150px;
+  text-align: right;
+}
+
+.hero-banner {
+  height: 500px;
+  background-image: url("./hospital-image.jpeg");
+  display: flex;
+  // justify-content: center;
+  align-items: flex-end;
+}
+
+.card {
+  min-height: 40%;
+  color: black;
+  margin-bottom: 20px;
+}

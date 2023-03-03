@@ -1,0 +1,22 @@
+#login {
+  text-align: center;
+  font-weight: 800;
+  font-size: medium;
+
+  .hero-banner {
+    height: 500px;
+    // background-image: url("./hospital-image.jpeg");
+    display: flex;
+    // justify-content: center;
+    align-items: flex-end;
+  }
+
+  label {
+    color: #f6ecf6 !important;
+    font-size: medium;
+  }
+  input {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
